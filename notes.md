@@ -81,3 +81,34 @@ As seen below
 var x = function (a, b) {return a * b};
 var z = x(4, 3);
 ```
+
+# Statements and Expressions
+
+They are a global concept in JavaScript
+
+_JS Expressions_ are pieces of code that always produces a value. 
+
+Examples: 
+
+```js
+2+3
+whatDoYouDo("Teacher", "John")
+25 > 26
+```
+
+_Statements_ are pieces of code that performs actions. 
+
+Example: If, While, for Loops
+
+```js 
+if (true) { console.log(23); }
+```
+
+# Arrays: 
+
+Two ways to declare an arrays in JS: 
+
+```js
+var names = ['John', 'Mark', 'Jane'];
+var years = new Array(1990, 1969, 1948);
+```
